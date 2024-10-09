@@ -1,0 +1,174 @@
+@font-face {
+    font-family: UbuntuBold;
+    src: url(fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: UbuntuMedium;
+    src: url(fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: UbuntuRegular;
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: KanitExtraBold;
+    src: url(fonts/Kanit-ExtraBold.ttf);
+}
+.main_title{
+    text-align: center;
+    font-family: KanitExtraBold;
+}
+.secheader{
+    font-family: UbuntuBold;
+}
+
+body{
+    margin: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(64, 80, 83);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: UbuntuBold;
+}
+.navbar a:hover{
+    background-color: rgb(37, 37, 37);
+}
+.navbar li{
+    float: right;
+}
+.navbar{
+    margin: 0px;
+    
+}
+.mainbg{
+    background-color: rgb(155, 162, 171);
+}
+
+.container1{
+    background-color: rgb(200, 193, 193);
+    width: 80%;
+    margin: auto;
+    height: 190px;
+    padding: 10px;
+}
+.container1 h2, p, button{
+    text-align: center;
+    vertical-align: middle;
+    font-family: UbuntuRegular;
+}
+.head32{
+    font-family: UbuntuMedium;
+}
+#paragraph{
+    margin: auto;
+    background-color: rgb(187, 187, 166);
+    width: 50%;
+}
+
+button{
+    text-decoration: none;
+    text-align: center;
+}
+.section{
+    background-color:rgb(200, 193, 193);
+    display: flex;
+    justify-content: space-between;
+}
+.section video{
+    height: 250px;
+}
+.section h3{
+    margin: 0px;
+    color: rgb(169, 47, 47);
+}
+.flexbox-container{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    align-items: center;
+    align-self: center;
+}
+.flexbox-items{
+    width: 500px;
+}
+.flexbox-item-1 img{
+    
+    width: 100%;
+    
+}
+.flexbox-item-2 img{
+    width: 100%;
+    
+}
+.flexbox-item-3 img{
+    width: 100%;
+    
+}
+.flexbox-item-4 img{
+    width: 100%;
+   
+}
+.head2{
+    text-align: center;
+}
+.image{
+    margin: auto;
+    padding: auto;
+    
+}
+.table{
+    width: 100%;
+    background-color: rgb(186, 168, 107);
+    
+}
+.table_head{
+    text-align: left;
+    background-color: rgb(206, 132, 13);
+}
+table, th, tr, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    font-family: UbuntuRegular
+
+}
+.background{
+    background-color: rgb(255, 223, 106);
+}
+.page_title{
+    font-family: KanitExtraBold;
+    color: rgb(118, 18, 26);
+    font-size: 50px;
+}
+.head2{
+    font-family: UbuntuBold;
+    color: rgb(118, 18, 26);
+}
+.main_text{
+    font-family: UbuntuRegular;
+    background-color: rgb(238, 193, 15);
+}
+.head3{
+    font-family: UbuntuMedium;
+}
+
+form{
+    font-size: 20px;
+}
+
+button{
+    size: 50px;
+    background-color: rgb(255, 132, 0);
+    font-family: UbuntuRegular;
+    font-weight: bold;
+}
